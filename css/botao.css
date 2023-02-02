@@ -1,0 +1,25 @@
+.botao-primario{
+    padding: 12px 28px;
+    font:700 1.8rem/1.25 'Rubik', sans-serif;
+    background: var(--amarelo-primario);
+    color: var(--azul-dark);
+    border-radius: 4px;
+    transition: .2s;
+}
+
+.botao-primario:hover{
+    background: var(--amarelo-dark);
+}
+
+.botao-secundario{
+    padding: 12px 28px;
+    font:700 1.8rem/1.25 'Rubik', sans-serif;
+    color: var(--branco);
+    border: 1px solid #EBDD5D;
+    border-radius: 4px;
+    transition: .2s;
+}
+
+.botao-secundario:hover{
+    background: var(--amarelo-primario);
+}

@@ -1,0 +1,60 @@
+:root{
+    --branco: #ffffff;
+    --azul-primario: #3063E9;
+    --azul-dark: #1647C9;
+    --azul-light1: #4276FF;
+    --azul-light2: #7398FA;
+    --amarelo-primario: #FFC700;
+    --amarelo-dark: #f0b624;
+    --amarelo-light: #EBDD5D;
+    --cinza-titulo: #181A1F;
+    --cinza-subtitulo: #28292C;
+    --cinza-texto1: #333438;
+    --cinza-texto2: #484A4F;
+
+}
+
+.azul-primario{
+    color: var(--azul-primario);
+}
+
+.azul-dark{
+    color: var(--azul-dark);
+}
+
+.azul-light-1{
+    color: var(--azul-light1);
+}
+
+.azul-light-2{
+    color: var(--azul-light2);
+}
+
+
+.amarelo-dark{
+    color: var(--amarelo-dark);
+}
+
+.amarelo-primario{
+    color: var(--amarelo-primario);
+}
+
+.amarelo-light{
+    color: var(--amarelo-light);
+}
+
+.cinza-titulo{
+    color: var(--cinza-titulo);
+}
+
+.cinza-subtitulo{
+    color: var(--cinza-subtitulo);
+}
+
+.cinza-texto-1{
+    color: var(--cinza-texto1);
+}
+
+.cinza-texto-2{
+    color: var(--cinza-texto2);
+}
