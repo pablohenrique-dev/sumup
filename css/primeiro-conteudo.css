@@ -4,7 +4,7 @@
 
 header {
     border-bottom: 1px solid #456DD5;
-    padding: 24px;
+    padding: 21px;
 }
 
 .header {
@@ -27,6 +27,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-top: -35px;
+    gap: 40px;
 }
 
 .conteudo li::before {

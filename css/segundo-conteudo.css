@@ -1,0 +1,13 @@
+.caracteristica-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+    border-bottom: 1px solid #E1E1E3;
+}
+
+.caracteristica{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 45px 0;
+}
