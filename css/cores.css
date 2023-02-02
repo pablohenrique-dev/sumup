@@ -58,3 +58,7 @@
 .cinza-texto-2{
     color: var(--cinza-texto2);
 }
+
+.branco{
+    color: var(--branco);
+}
