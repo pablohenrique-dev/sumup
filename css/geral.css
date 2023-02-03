@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,19 +8,121 @@
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     display: inline;
 }
 
-img{
+img {
     display: block;
 }
 
-.logo{
+.logo {
     width: 153px;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
+
+
+/*Primeiro conteúdo*/
+
+.first-content {
+    background: radial-gradient(44.13% 247.55% at 67.88% 66.78%, #2D60E7 0%, #1647C9 100%);
+}
+
+header {
+    border-bottom: 1px solid #456DD5;
+    padding: 21px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.header-menu li a {
+    color: var(--branco);
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -35px;
+    gap: 40px;
+}
+
+.conteudo li::before {
+    content: url('../img/Icones/icon-hat-hero.svg');
+}
+
+.conteudo h1 {
+    margin: 16px 0 24px 0;
+}
+
+.conteudo p {
+    margin-bottom: 32px;
+}
+
+
+/*Segundo conteúdo*/
+.qualidades-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+    border-bottom: 1px solid #E1E1E3;
+}
+
+.qualidade {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 45px 0;
+}
+
+/*Terceiro conteudo*/
+.s-solucoes{
+    padding-top: 45px;
+}
+
+.solucoes-parte-1, .solucoes-parte-2{
+    display: flex;
+    gap: 88px;
+}
+
+.solucoes-parte-1{
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.solucoes-parte-2 img{
+    border-radius: 8px;
+}
+
+.solucoes-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 8px;
+}
+
+.solucoes{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    background: var(--branco);
+    padding: 27px 24px;
+    border-bottom: 1px solid var(--cinza-borda);
+}
+
+.solucoes:nth-child(odd){
+    border-right: 1px solid var(--cinza-borda);
+}
+

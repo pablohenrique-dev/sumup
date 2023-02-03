@@ -11,6 +11,8 @@
     --cinza-subtitulo: #28292C;
     --cinza-texto1: #333438;
     --cinza-texto2: #484A4F;
+    --cinza-bg: #F8F8FB;
+    --cinza-borda: #F0F0F1;
 
 }
 
@@ -57,6 +59,10 @@
 
 .cinza-texto-2{
     color: var(--cinza-texto2);
+}
+
+.cinza-bg{
+    background-color: var(--cinza-bg);
 }
 
 .branco{
