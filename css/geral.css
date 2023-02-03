@@ -25,6 +25,10 @@ html {
     font-size: 62.5%;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 
 /*Primeiro conteúdo*/
 
@@ -91,6 +95,7 @@ header {
 /*Terceiro conteudo*/
 .s-solucoes{
     padding-top: 45px;
+    padding-bottom: 88px;
 }
 
 .solucoes-parte-1, .solucoes-parte-2{
@@ -118,7 +123,7 @@ header {
     gap: 18px;
     align-items: center;
     background: var(--branco);
-    padding: 27px 24px;
+    padding: 26px 24px;
     border-bottom: 1px solid var(--cinza-borda);
 }
 
@@ -126,3 +131,109 @@ header {
     border-right: 1px solid var(--cinza-borda);
 }
 
+/*Quarto conteúdo*/
+.s-maquininha{
+    padding: 104px 0;
+}
+
+.maquininha-container{
+    display: flex;
+    align-items: center;
+    gap: 170px;
+}
+
+.left-maquininha h2{
+    padding: 16px 0 24px 0;
+}
+
+.left-maquininha h2 + p{
+    padding-bottom: 40px;
+}
+
+.servicos{
+    display: flex;
+}
+
+.servicos + .servicos{
+    margin-top: 48px;
+}
+
+.servicos h4{
+    margin-bottom: 8px;
+}
+
+.servicos h4, .servicos p{
+ margin-left: 32px;
+}
+
+.right-maquininha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.selo{
+    position: absolute;
+    left: -70px;
+    top: -30px;
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.download span{
+    margin-left: 16px;
+}
+
+#seta{
+    animation: download 1.75s ease-in-out infinite;
+}
+
+@keyframes download{
+    0%, 100%{
+        transform: translateY(-4px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+}
+
+/*Quinto conteúdo*/
+
+.s-bandeiras{
+    border-top: 1px solid var(--cinza-borda);
+    position: relative;
+    padding: 50px 0;
+}
+
+.bandeiras{
+    display: flex;
+    gap: 96px;
+    animation: slide 15s linear infinite;
+}
+
+.bandeiras:hover{
+    animation-play-state: paused;
+}
+
+.bandeiras-container span{
+    position: absolute;
+    display: inline;
+    top: -15px;
+    background-color: var(--branco);
+    padding: 0 4px;
+}
+
+@keyframes slide{
+    0%, 100%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-400px);
+    }
+}
