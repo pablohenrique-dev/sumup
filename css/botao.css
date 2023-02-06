@@ -14,6 +14,8 @@
 .botao-primario, .botao-secundario{
     display: flex;
     gap: 8px;
+    align-items: center;
+    justify-content: center;
 }
 
 .botao-secundario{
@@ -28,4 +30,19 @@
 
 .botao-secundario:hover{
     background: var(--amarelo-primario);
+}
+
+.botao-terciario{
+    padding: 11px 28px;
+    font:600 1.8rem/1.25 'Rubik', sans-serif;
+    color: var(--azul-primario);
+    border: 1px solid var(--azul-primario);
+    border-radius: 4px;
+    transition: .2s;
+    background: none;
+}
+
+.botao-terciario:hover{
+    color: var(--branco);
+    background: var(--azul-primario);
 }

@@ -25,11 +25,11 @@ html {
     font-size: 62.5%;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-.subtitulo{
+.subtitulo {
     padding: 16px 0 24px 0;
 }
 
@@ -97,32 +97,34 @@ header {
 }
 
 /*Terceiro conteudo*/
-.s-solucoes{
+.s-solucoes {
     padding-top: 45px;
     padding-bottom: 88px;
 }
 
-.solucoes-parte-1, .solucoes-parte-2{
+.top,
+.solucoes-parte-2 {
     display: flex;
     gap: 88px;
 }
 
-.solucoes-parte-1{
+.top {
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 32px;
 }
 
-.solucoes-parte-2 img{
+.solucoes-parte-2 img {
     border-radius: 8px;
 }
 
-.solucoes-grid{
+.solucoes-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 8px;
 }
 
-.solucoes{
+.solucoes {
     display: flex;
     gap: 18px;
     align-items: center;
@@ -131,97 +133,101 @@ header {
     border-bottom: 1px solid var(--cinza-borda);
 }
 
-.solucoes:nth-child(odd){
+.solucoes:nth-child(odd) {
     border-right: 1px solid var(--cinza-borda);
 }
 
 /*Quarto conteúdo*/
-.s-maquininha{
+.s-app {
     padding: 104px 0;
 }
 
-.maquininha-container{
+.app-container {
     display: flex;
     align-items: center;
     gap: 170px;
 }
 
-.left-maquininha h2 + p{
+.left-app h2+p {
     padding-bottom: 40px;
 }
 
-.servicos{
+.servicos {
     display: flex;
 }
 
-.servicos + .servicos{
+.servicos+.servicos {
     margin-top: 48px;
 }
 
-.servicos h3{
+.servicos h3 {
     margin-bottom: 8px;
 }
 
-.servicos h3, .servicos p{
- margin-left: 32px;
+.servicos h3,
+.servicos p {
+    margin-left: 32px;
 }
 
-.right-maquininha{
+.right-app {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
 }
 
-.selo{
+.selo {
     position: absolute;
     left: -70px;
     top: -30px;
 }
 
-.download{
+.download {
     display: flex;
     align-items: center;
     margin-top: 24px;
     cursor: pointer;
 }
 
-.download span{
+.download span {
     margin-left: 16px;
 }
 
-#seta{
+#seta {
     animation: download 1.75s ease-in-out infinite;
 }
 
-@keyframes download{
-    0%, 100%{
+@keyframes download {
+
+    0%,
+    100% {
         transform: translateY(-4px);
     }
-    50%{
+
+    50% {
         transform: translateY(0px);
     }
 }
 
 /*Quinto conteúdo*/
 
-.s-bandeiras{
+.s-bandeiras {
     border-top: 1px solid var(--cinza-borda);
     position: relative;
     padding: 50px 0;
 }
 
-.bandeiras{
+.bandeiras {
     display: flex;
     gap: 96px;
     animation: slide 15s linear infinite;
 }
 
-.bandeiras:hover{
+.bandeiras:hover {
     animation-play-state: paused;
 }
 
-.bandeiras-container span{
+.bandeiras-container span {
     position: absolute;
     display: inline;
     top: -15px;
@@ -229,50 +235,113 @@ header {
     padding: 0 4px;
 }
 
-@keyframes slide{
-    0%, 100%{
+@keyframes slide {
+
+    0%,
+    100% {
         transform: translateX(0px);
     }
-    50%{
+
+    50% {
         transform: translateX(-400px);
     }
 }
 
 /*Sexto conteudo*/
 
-.s-card{
+.s-card {
     background-color: var(--azul-dark);
 }
 
-.card-container{
+.card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background: url('../img/bg-card.png') center center no-repeat;
     align-items: center;
 }
 
-.sumup-solo{
+.sumup-solo {
     margin: 40px 16px 32px;
 }
 
-.card-buttons{
+.card-buttons {
     display: flex;
     margin-top: 24px;
 }
 
-.btn-card + .btn-card{
+.btn-card+.btn-card {
     margin-left: 24px;
 }
 
-.card-caracteristicas li{
+.card-caracteristicas li {
     display: flex;
 }
 
-.card-caracteristicas li + li{
+.card-caracteristicas li+li {
     margin-top: 32px;
 }
 
 
-.card-caracteristicas li img{
+.card-caracteristicas li img {
     margin-right: 16px;
+}
+
+/*Sétimo conteúdo*/
+.s-produtos {
+    padding: 104px 0;
+}
+
+.titulo-produtos{
+    margin-bottom: 48px;
+}
+
+.lista-produtos {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.detalhe {
+    background: rgba(48, 99, 233, 0.1);
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+.produto {
+    border: 1px solid var(--azul-light1);
+    border-radius: 4px;
+    width: 100%;
+    max-width: 28rem;
+}
+
+.produto-textos {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px 0 24px;
+}
+
+.produto ul {
+    margin: 24px 0;
+}
+
+.produto ul li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.produto li+li {
+    margin-top: 16px;
+}
+
+.produto button+button {
+    margin: 16px 0 24px 0;
+}
+
+.img-produto {
+    background: linear-gradient(180deg, #FFFFFF 17.21%, #4276FF 17.31%);
+}
+
+.img-produto img {
+    margin: 0 auto;
 }
