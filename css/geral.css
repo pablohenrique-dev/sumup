@@ -68,8 +68,10 @@ header {
     gap: 40px;
 }
 
-.conteudo li::before {
-    content: url('../img/Icones/icon-hat-hero.svg');
+.conteudo ul li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .conteudo h1 {
@@ -289,6 +291,7 @@ header {
 /*Sétimo conteúdo*/
 .s-produtos {
     padding: 104px 0;
+    background: linear-gradient(180deg, #FAFAFC 71.5%, #FFFFFF 71.5%)
 }
 
 .titulo-produtos{
@@ -312,6 +315,7 @@ header {
     border-radius: 4px;
     width: 100%;
     max-width: 28rem;
+    background: var(--branco);
 }
 
 .produto-textos {
