@@ -1,0 +1,68 @@
+.s-faq{
+    padding: 88px 0;
+}
+
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.faq-container aside{
+    width: 40%;
+    position: sticky;
+    top: 50%;
+}
+
+.faq-container aside p{
+    margin-bottom: 32px;
+}
+
+.faq {
+    width: 60%;
+}
+
+.faq dl div {
+    border: 1px solid #E1E1E3;
+    border-radius: 4px;
+    padding: 16px 64px 16px 24px;
+    position: relative;
+}
+
+.faq div + div{
+    margin-top: 16px;
+}
+
+.faq button::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../img/Icones/icone-faq-2.svg);
+    transition: .2s;
+    transform: rotate(180deg);
+    position: absolute;
+    right: 24px;
+    top: 22px;
+}
+
+.faq div dd {
+    visibility: hidden;
+    overflow: hidden;
+    transition: .2s;
+    margin-top: 8px;
+    transform: translateY(50px);
+    opacity: 0;
+    height: 0;
+}
+
+.faq div.ativo  dd{
+    visibility: visible;
+    transform: translateY(0px);
+    opacity: 1;
+    height: auto;
+}
+
+.faq div.ativo button::after{
+    transform: rotate(45deg);
+}

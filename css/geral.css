@@ -6,6 +6,7 @@
     box-sizing: border-box;
     border: none;
     list-style: none;
+    background: none;
 }
 
 a {
@@ -32,6 +33,7 @@ body {
 .subtitulo {
     padding: 16px 0 24px 0;
 }
+
 
 
 /*Primeiro conteúdo*/
@@ -290,9 +292,10 @@ header {
 
 /*Sétimo conteúdo*/
 .s-produtos {
-    padding: 104px 0;
+    padding: 88px 0 0;
     background: linear-gradient(180deg, #FAFAFC 71.5%, #FFFFFF 71.5%)
 }
+
 
 .titulo-produtos{
     margin-bottom: 48px;
@@ -302,6 +305,8 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 32px;
+    padding-bottom: 88px;
+    border-bottom: 1px solid #E1E1E3;
 }
 
 .detalhe {
@@ -349,3 +354,5 @@ header {
 .img-produto img {
     margin: 0 auto;
 }
+
+/*Oitavo conteúdo*/
