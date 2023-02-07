@@ -10,15 +10,18 @@
     crédito para crescer financeiramente.">
     <link rel="icon" href="./img/Icones/Favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="./css/style.css">
+    <script> document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
     <div class="first-content" id="hero">
         <header>
             <div class="container header">
-                <a href="#"><img src="./img/Logo.svg" width="153" height="47" alt="Logo sumup"></a>
-                <nav id="nav">
-                    <button class="font-texto-1 branco">Menu</button>
+                <a href="#"><img class="logo" src="./img/Logo.svg" width="153" height="47" alt="Logo sumup"></a>
+                <nav id="nav" aria-label="primaria">
+                    <button aria-label="abrir menu" aria-expanded="false" aria-haspopup="true" aria-controls="header-menu" class="font-texto-1 branco">
+                        <span id="hamburguer"></span>
+                    </button>
                     <ul class="header-menu font-texto-2" role="menu">
                         <li role="menuitem"><a href="#">Aceite pagamentos</a></li>
                         <li role="menuitem"><a href="#">Cresça com segurança</a></li>
@@ -32,6 +35,9 @@
                     Acessar conta
                 </button>
             </div>
+            <aside>
+
+            </aside>
         </header>
         <main class="s-hero">
             <div class="container hero-section">
@@ -448,7 +454,7 @@
         <div class="container footer-container">
             <div class="footer-parte-1">
                 <a href="#hero">
-                    <img src="./img/Logo.svg" width="153" height="47" alt="Logo sumup">
+                    <img class="logo" src="./img/Logo.svg" width="153" height="47" alt="Logo sumup">
                 </a>
                 <div class="redes">
                     <p class="font-texto-1 branco medium">Acompanhe nossas redes sociais: </p>
@@ -502,7 +508,7 @@
             </div>
         </div>
     </footer>
-    <script type="module" src="js/script.js"></script>
+    <script src="./main.js"></script>
 </body>
 
 </html>

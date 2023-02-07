@@ -1,2 +1,3 @@
-import teste from './modules/teste.js';
+import menuMobile from './modules/menuMobile.js';
 
+menuMobile();
