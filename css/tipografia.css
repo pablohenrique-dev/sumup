@@ -38,6 +38,12 @@
     font-weight: 500;
 }
 
+@media (max-width: 1175px) {
+    .font-h1 {
+        font-size: 4.8rem;
+    }
+}
+
 @media (max-width: 560px) {
     .font-h1 {
         font-size: 4rem;
@@ -45,5 +51,9 @@
 
     .font-h2 {
         font-size: 3.2rem;
+    }
+
+    .font-texto-1{
+        font-size: 1.6rem;
     }
 }

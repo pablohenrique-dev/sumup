@@ -16,6 +16,7 @@ a {
 
 img {
     display: block;
+    height: auto;
 }
 
 .logo {
@@ -33,57 +34,6 @@ body {
 .subtitulo {
     padding: 16px 0 24px 0;
 }
-
-
-
-/*Primeiro conteúdo*/
-
-.first-content {
-    background: radial-gradient(44.13% 247.55% at 67.88% 66.78%, #2D60E7 0%, #1647C9 100%);
-}
-
-header {
-    border-bottom: 1px solid #456DD5;
-    padding: 21px;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-menu {
-    display: flex;
-    gap: 32px;
-}
-
-.header-menu li a {
-    color: var(--branco);
-}
-
-.hero-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: -35px;
-    gap: 40px;
-}
-
-.conteudo ul li{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.conteudo h1 {
-    margin: 16px 0 24px 0;
-}
-
-.conteudo p {
-    margin-bottom: 32px;
-}
-
 
 /*Segundo conteúdo*/
 .qualidades-container {

@@ -1,0 +1,38 @@
+header {
+    border-bottom: 1px solid #456DD5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    gap: 32px;
+}
+
+#nav button{
+    display: none;
+}
+
+.header-menu li a {
+    color: var(--branco);
+}
+
+@media (max-width: 1150px){
+    .header-menu {
+        gap: 24px;
+    }
+
+    #nav button{
+        display: block;
+    }
+
+    .header-menu, #btn-header{
+        display: none;
+    }
+}

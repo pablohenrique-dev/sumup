@@ -1,8 +1,10 @@
-@import 'geral.css';
 @import 'animacao.css';
 @import 'botao.css';
 @import 'cores.css';
 @import 'tipografia.css';
 @import 'grid.css';
+@import 'geral.css';
+@import 'header.css';
+@import 'hero.css';
 @import 'faq.css';
 @import 'footer.css';
