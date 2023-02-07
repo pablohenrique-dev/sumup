@@ -50,19 +50,6 @@ body {
     padding: 45px 0;
 }
 
-@media (max-width: 664px) {
-    .qualidades-container {
-        flex-direction: column;
-        gap: initial;
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-
-    .qualidade {
-        padding: 16px 0;
-    }
-}
-
 /*Terceiro conteudo*/
 .s-solucoes {
     padding-top: 45px;
@@ -128,6 +115,34 @@ body {
 
     .solucoes-parte-2 > img{
         width: 100%;
+    }
+}
+
+@media (max-width: 664px) {
+    .qualidades-container {
+        flex-direction: column;
+        gap: initial;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .qualidade {
+        padding: 16px 0;
+    }
+    
+    .solucoes-container{
+        padding-top: 32px;
+        padding-bottom: 0px;
+    }
+
+    .solucoes-container .top{
+        flex-direction: column;
+        text-align: center;
+        gap: 24px;
+    }
+
+    .subtitulo{
+        padding: initial;
     }
 }
 
