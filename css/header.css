@@ -31,7 +31,8 @@ header {
     bottom: 0;
     background: #456DD5;
     transform: translateY(100vh);
-    transition: all .3s ease-in;
+    transition: all .3s ease-in-out;
+    opacity: 0;
 }
 
 
@@ -89,6 +90,7 @@ header {
 
     .js header.ativo aside {
         transform: translateY(83.8px);
+        opacity: 1;
     }
 }
 
@@ -99,6 +101,7 @@ header {
 
     .js header.ativo aside {
         transform: translateY(74.4px);
+        opacity: 1;
     }
 
 }
