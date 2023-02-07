@@ -19,18 +19,18 @@
 }
 
 .faq {
-    width: 60%;
+
 }
 
 .faq dl div {
-    border: 1px solid #E1E1E3;
+    border-bottom: 1px solid #E1E1E3;
     border-radius: 4px;
-    padding: 16px 64px 16px 24px;
+    padding: 16px 64px 24px 24px;
     position: relative;
 }
 
 .faq div + div{
-    margin-top: 16px;
+    margin-top: 18px;
 }
 
 .faq button::after {
@@ -50,7 +50,7 @@
     visibility: hidden;
     overflow: hidden;
     transition: .2s;
-    margin-top: 8px;
+    margin-top: 16px;
     transform: translateY(50px);
     opacity: 0;
     height: 0;

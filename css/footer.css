@@ -1,0 +1,28 @@
+footer{
+    background: var(--azul-dark);
+    padding: 32px 0;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-parte-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+}
+
+.redes p{
+    margin-right: 16px;
+}
+
+.redes img + img {
+    margin-left: 32px;
+}
