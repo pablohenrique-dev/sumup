@@ -1,5 +1,5 @@
-.s-faq{
-    padding: 88px 0;
+.s-faq {
+    padding: 72px 0 88px;
 }
 
 .faq-container {
@@ -8,13 +8,7 @@
     gap: 64px;
 }
 
-.faq-container aside{
-    width: 40%;
-    position: sticky;
-    top: 50%;
-}
-
-.faq-container aside p{
+.faq-container aside p {
     margin-bottom: 32px;
 }
 
@@ -25,7 +19,7 @@
     position: relative;
 }
 
-.faq div + div{
+.faq div+div {
     margin-top: 18px;
 }
 
@@ -52,13 +46,41 @@
     height: 0;
 }
 
-.faq div.ativo  dd{
+.faq div.ativo dd {
     visibility: visible;
     transform: translateY(0px);
     opacity: 1;
     height: auto;
 }
 
-.faq div.ativo button::after{
+.faq div.ativo button::after {
     transform: rotate(45deg);
+}
+
+.faq button {
+    text-align: left;
+}
+
+@media (max-width: 990px) {
+    .faq-container {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .faq-container aside {
+        text-align: center;
+    }
+
+    .faq dl div {
+        padding-left: 0px;
+        padding-right: 0;
+    }
+
+    .faq button::after {
+        right: 0;
+    }
+
+    .faq button {
+        padding-right: 40px;
+    }
 }

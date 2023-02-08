@@ -17,7 +17,7 @@ footer{
     border-bottom: 1px solid #456DD5;
 }
 
-.redes{
+.redes, .redes-imgs{
     display: flex;
     align-items: center;
 }
@@ -51,4 +51,30 @@ footer{
 
 .item li + li{
     margin-top: 16px;
+}
+
+@media (max-width: 990px){
+    .qr-code{
+        display: none;
+    }
+
+    .footer-parte-2{
+        flex-wrap: wrap;
+        row-gap: 48px;
+    }
+}
+
+@media (max-width: 660px){
+    .footer-parte-1, .redes{
+        flex-direction: column;
+    }
+
+    .redes{
+        margin-top: 32px;
+    }
+    
+    .redes-imgs{
+        margin-top: 30px;
+        display: flex;
+    }
 }
