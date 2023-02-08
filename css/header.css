@@ -33,6 +33,7 @@ header {
     transform: translateY(100vh);
     transition: all .3s ease-in-out;
     opacity: 0;
+    z-index: 999;
 }
 
 
@@ -94,7 +95,7 @@ header {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
     .logo {
         width: 80%;
     }
