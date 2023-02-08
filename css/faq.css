@@ -17,6 +17,7 @@
     border-radius: 4px;
     padding: 16px 64px 24px 24px;
     position: relative;
+    overflow: hidden;
 }
 
 .faq div+div {
@@ -29,7 +30,7 @@
     width: 16px;
     height: 16px;
     background: url(../img/Icones/icone-faq-2.svg);
-    transition: .2s;
+    transition: .4s;
     transform: rotate(180deg);
     position: absolute;
     right: 24px;
@@ -39,21 +40,21 @@
 .faq div dd {
     visibility: hidden;
     overflow: hidden;
-    transition: .2s;
+    transition: .5s;
     margin-top: 16px;
     transform: translateY(50px);
     opacity: 0;
     height: 0;
 }
 
-.faq div.ativo dd {
+.js .faq div.ativo dd {
     visibility: visible;
     transform: translateY(0px);
     opacity: 1;
     height: auto;
 }
 
-.faq div.ativo button::after {
+.js .faq div.ativo button::after {
     transform: rotate(45deg);
 }
 
