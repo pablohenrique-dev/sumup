@@ -28,8 +28,9 @@ header {
 }
 
 .header-menu li a:hover,
+.js #hero.scrolled .header-menu li a.ativo,
 .js #hero.scrolled .header-menu li a:hover{
-    color: var(--amarelo-primario);
+    color: var(--azul-primario);
 }
 
 /*Menu mobile*/
