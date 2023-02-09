@@ -6,11 +6,13 @@ export default function faq() {
     const elementoPai = pergunta.currentTarget.parentElement.parentElement;
     perguntasContainer.forEach((perguntaContainer) => {
       perguntaContainer.classList.remove('ativo');
-      elementoPai.classList.add('ativo');
     });
+    elementoPai.classList.add('ativo');
   }
 
-  perguntas.forEach((pergunta) => {
-    pergunta.addEventListener('click', ativarPergunta);
-  });
+  if (perguntas) {
+    perguntas.forEach((pergunta) => {
+      pergunta.addEventListener('click', ativarPergunta);
+    });
+  }
 }

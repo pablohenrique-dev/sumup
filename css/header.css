@@ -2,6 +2,7 @@ header {
     border-bottom: 1px solid #456DD5;
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: all .5;
 }
 
 .header {
@@ -105,4 +106,24 @@ header {
         opacity: 1;
     }
 
+}
+
+/*Menu scrolled*/
+.js header.scrolled{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: var(--branco);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    border: none;
+}
+
+.js header.scrolled .header-menu li a {
+    color: var(--azul-primario);
+}
+
+.js header.scrolled #hamburguer{
+    color: var(--azul-primario);
 }
