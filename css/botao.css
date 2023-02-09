@@ -26,10 +26,19 @@ button{
     padding: 11px 28px;
     font:400 1.8rem/1.25 'Rubik', sans-serif;
     color: var(--branco);
-    border: 1px solid #EBDD5D;
+    border: 1px solid var(--amarelo-dark);
     border-radius: 4px;
     transition: .2s;
     background: none;
+}
+
+#hero.scrolled .botao-secundario{
+    color: var(--amarelo-dark);
+}
+
+#hero.scrolled .botao-secundario:hover{
+    color: var(--branco);
+
 }
 
 .botao-secundario:hover{

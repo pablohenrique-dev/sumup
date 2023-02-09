@@ -2,7 +2,10 @@ header {
     border-bottom: 1px solid #456DD5;
     padding-top: 24px;
     padding-bottom: 24px;
-    transition: all .5;
+    transition: all .5s;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .header {
@@ -22,6 +25,11 @@ header {
 
 .header-menu li a {
     color: var(--branco);
+}
+
+.header-menu li a:hover,
+.js #hero.scrolled .header-menu li a:hover{
+    color: var(--amarelo-primario);
 }
 
 /*Menu mobile*/
@@ -109,21 +117,23 @@ header {
 }
 
 /*Menu scrolled*/
-.js header.scrolled{
+.js #hero.scrolled header{
     padding-top: 16px;
     padding-bottom: 16px;
     background: var(--branco);
-    position: fixed;
-    width: 100%;
-    top: 0;
     z-index: 999;
-    border: none;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid #E1E1E3;
 }
 
-.js header.scrolled .header-menu li a {
-    color: var(--azul-primario);
+.js #hero.scrolled header .header-menu li a {
+    color: var(--cinza-texto2);
 }
 
-.js header.scrolled #hamburguer{
+.js #hero.scrolled header #logo{
+    width: 80%;
+}
+
+.js #hero.scrolled header #hamburguer{
     color: var(--azul-primario);
 }
