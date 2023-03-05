@@ -13,5 +13,5 @@ export default function menuScrolled() {
       logo.setAttribute('src', './img/Logo.svg');
     }
   }
-  window.addEventListener('scroll', debounce(ativarMenuScrolled, 10));
+  window.addEventListener('scroll', debounce(ativarMenuScrolled, 5));
 }

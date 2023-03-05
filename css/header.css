@@ -27,11 +27,16 @@ header {
     color: var(--branco);
 }
 
-.header-menu li a:hover,
+.header-menu li a:hover{
+    color: var(--amarelo-primario);
+}
+
 .js #hero.scrolled .header-menu li a.ativo,
 .js #hero.scrolled .header-menu li a:hover{
     color: var(--azul-primario);
 }
+
+
 
 /*Menu mobile*/
 .js header aside {
