@@ -44,7 +44,7 @@ header {
     height: 100%;
     position: fixed;
     bottom: 0;
-    background: #456DD5;
+    background: #ffffff;
     transform: translateY(100vh);
     transition: all .3s ease-in-out;
     opacity: 0;
@@ -116,8 +116,9 @@ header {
     }
 
     .js header.ativo aside {
-        transform: translateY(74.4px);
+        transform: translateY(72px);
         opacity: 1;
+        border-top: 1px solid var(--azul-primario);
     }
 
 }

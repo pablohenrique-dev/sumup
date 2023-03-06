@@ -8,9 +8,7 @@ faq();
 menuScrolled();
 linkAtivo();
 
-AOS.init({
-  duration: 1000,
-  offset: 120,
-  once: true,
-  easing: 'ease',
-});
+// AOS.init({
+//   duration: 1000,
+//   once: true,
+// });
