@@ -27,12 +27,12 @@ header {
     color: var(--branco);
 }
 
-.header-menu li a:hover{
+.header-menu li a:hover {
     color: var(--amarelo-primario);
 }
 
 .js #hero.scrolled .header-menu li a.ativo,
-.js #hero.scrolled .header-menu li a:hover{
+.js #hero.scrolled .header-menu li a:hover {
     color: var(--azul-primario);
 }
 
@@ -53,20 +53,20 @@ header {
 
 
 /*Aside menu-mobile*/
-aside{
+aside {
     display: flex;
     flex-direction: column;
     grid-template-columns: 1fr;
     position: relative;
 }
 
-.header-menu-mobile li a{
+.header-menu-mobile li a {
     display: block;
     padding: 24px 0;
     border-bottom: 1px solid var(--cinza-texto3);
 }
 
-aside .botao-login-mobile{
+aside .botao-login-mobile {
     position: absolute;
     bottom: 16%;
     left: 20px;
@@ -117,7 +117,7 @@ aside .botao-login-mobile{
         position: relative;
     }
 
-    header.ativo #hamburguer{
+    header.ativo #hamburguer {
         border-top-color: transparent;
     }
 
@@ -151,7 +151,7 @@ aside .botao-login-mobile{
 }
 
 /*Menu scrolled*/
-.js #hero.scrolled header{
+.js #hero.scrolled header {
     padding-top: 16px;
     padding-bottom: 16px;
     background: var(--branco);
@@ -164,10 +164,10 @@ aside .botao-login-mobile{
     color: var(--cinza-texto2);
 }
 
-.js #hero.scrolled header #logo{
+.js #hero.scrolled header #logo {
     width: 80%;
 }
 
-.js #hero.scrolled header #hamburguer{
+.js #hero.scrolled header #hamburguer {
     color: var(--azul-primario);
 }
